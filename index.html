@@ -1,0 +1,72 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap" rel="stylesheet"> 
+    <link href='./index.css' rel='stylesheet'>
+</head>
+
+<body>
+<header id='header'>
+    <figure id='header-logo'>
+        <img src='./teacup.png' alt='Company Logo' id='header-img'>
+    </figure>
+    
+    <nav id='nav-bar'>
+        <div class='nav-link-box'>
+            <a class='nav-link' href='#description'>Teas</a>
+        </div>
+        <div class='nav-link-box'>
+            <a class='nav-link' href='#video'>How to Brew Tea</a>
+        </div>
+        <div class='nav-link-box'>
+            <a class='nav-link' href='#form'>Newsletter</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id='description'>
+        <h1 id='product-title'>Finest Quality Teas</h1>
+        <p id='product-description'>We sell the highest quality teas. Satisfaction guaranteed!</p>
+        <h2>Types of Tea</h2>
+        <div class='tea-type'>
+            Green tea
+            <blockquote>
+                Green tea preserves some of the original qualities of the fresh leaf, while heightening them and rounding them out.
+                It's made by cooking the fresh or briefly withered leaves to inactivate their enzymes, then pressing them to release their moisture,
+                and drying them in hot air or on a hot pan.<sup>*</sup>
+            </blockquote>
+        </div>
+        <div class='tea-type'>
+            Black tea
+            <blockquote>
+                Black tea is made by allowing a profound enzymatic transformation of the leaf fluids. The leaves are withered for hours, rolled repeatedly for as much as an hour,
+                then are allowed to rest for between one and four hours&hellip; Finally, the leaves are air-dried at temperatures around 100&deg;C, and become quite dark.<sup>*</sup>
+            </blockquote>
+        </div>
+        <div class='tea-type'>
+            Oolong tea
+            <blockquote>
+                Oolong tea is made by allowing some modest enzyme transformation of leaf juices. The leaves are withered
+                until they become significantly wilted and weakened. Then they are lightly agitated to bruise the leaf edges, allowed to rest 
+                for a few hours until enzyme action has turned the bruised edges red, pan-fired at a high temperature, rolled and finally dried gently&hellip;
+                 Oolong tea brews to a light amber color with a distinctive fruity aroma.<sup>*</sup>
+            </blockquote>
+        </div>
+        <!-- <div class='tea-type'>
+            <p>Pu'erh</p>
+        </div> -->
+    </section>
+
+    <section id='tea-video'>
+            <iframe id='video' width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZttG1g6O7vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+    <form action='https://www.freecodecamp.com/email-submit' method="GET" id='form'>
+        <label for='email'>Join our newsletter: </label>
+        <input type='email' name='email' id='email' size='30' placeholder="Enter your email address" required>
+        <input type='submit' value="subscribe" id='submit' class='submit-btn'>
+    </form>
+
+</main>
+<footer id='citation'><sup>*</sup>McGee, Harold. <em>On Food and Cooking: The Science and Lore of the Kitchen</em>. New York: Scribner, 2004.</footer>
+
+</body>
