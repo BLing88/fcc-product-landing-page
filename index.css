@@ -46,11 +46,11 @@ main {
 
 @media (max-width: 500px){
     #header-logo {
-        flex: 1 1 auto;
+        flex: 1 2 auto;
     }
     
     #nav-bar {
-        flex: 2 2 auto;
+        flex: 2 1 auto;
         display: inline-flex;
         flex-direction: row;
         align-items: center;
